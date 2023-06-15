@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Song 1",
+    "artistName": "Artist 1",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "imgPath": "https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?w=1380&t=st=1686745532~exp=1686746132~hmac=9a86e15f0cbc6d3b45480eea51fe4e9a8294f6570de0aad7c500c2115dc0ee87",
+    "videoPath": ""
+  },
+  {
+    "name": "Song 2",
+    "artistName": "",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+    "imgPath": "https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?w=1380&t=st=1686745532~exp=1686746132~hmac=9a86e15f0cbc6d3b45480eea51fe4e9a8294f6570de0aad7c500c2115dc0ee87",
+    "videoPath": ""
+  },
+  {
+    "name": "Song 3",
+    "artistName": "",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    "imgPath": "https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?w=1380&t=st=1686745532~exp=1686746132~hmac=9a86e15f0cbc6d3b45480eea51fe4e9a8294f6570de0aad7c500c2115dc0ee87",
+    "videoPath": ""
+  },
+  {
+    "name": "Song 4",
+    "artistName": "",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+    "imgPath": "https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?w=1380&t=st=1686745532~exp=1686746132~hmac=9a86e15f0cbc6d3b45480eea51fe4e9a8294f6570de0aad7c500c2115dc0ee87",
+    "videoPath": ""
+  },
+  {
+    "name": "Song 5",
+    "artistName": "",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "imgPath": "https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?w=1380&t=st=1686745532~exp=1686746132~hmac=9a86e15f0cbc6d3b45480eea51fe4e9a8294f6570de0aad7c500c2115dc0ee87",
+    "videoPath": ""
+  },
+  {
+    "name": "Song 6",
+    "artistName": "",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "imgPath": "https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?w=1380&t=st=1686745532~exp=1686746132~hmac=9a86e15f0cbc6d3b45480eea51fe4e9a8294f6570de0aad7c500c2115dc0ee87",
+    "videoPath": ""
+  }
+]

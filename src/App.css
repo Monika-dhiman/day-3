@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+:root {
+  --mainColor: #fff;
+  --mainLightColor: rgb(239, 243, 15);
+  --mainDimColor: rgb(229, 15, 248);
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: white;
+}
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--mainColor);
+  font-family: "Poppins";
+  text-align: center;
+  
+}
+.backgroundVideo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  z-index: -1;
+  filter: saturate(2.5);
+}
+
+/* .blackScreen {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  pointer-events: none;
+  background-color: rgb(25, 25, 110);
+} */
+.music-container {
+  width: 350px;
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 36px;
+  box-shadow: 0 0 20px rgb(231, 56, 231), 
+  0 0 40px rgb(86, 152, 190), 
+  0 0 80px white;
+  backdrop-filter: blur(10px);
+}
+
+.musicPlayer{
+  margin: 0;
+  margin-bottom: 10px;
+  color: var(--mainLightColor)
+}
+
+.music-Head-Name{
+  margin: 0 auto;
+  font-size: 1.5rem;
+  text-align: center; 
+  color: var(--mainDimColor)
+}
+
+.music-Artist-Name{
+  color: var(--mainColor);
+  margin: 4px 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+#songAvatar {
+  width: 200px;
+  height: 200px;
+  /* border-radius: 30%; */
+  object-fit: cover;
+  margin: 18px 0;
+  position: relative;
+  cursor: pointer;
+  animation: animateAvatar .5s linear infinite;
+
+}
+
+@keyframes animateAvatar {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.03);
+  } 
+}
+
+.musicTimerDiv{
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  font-weight: 600;
+
+}
+.musicProgressBar{
+  width: 100%;
+  margin-bottom: 16px;
+  height: 10px;
+  border-radius: 5px;
+  outline: none;
+  filter: hue-rotate(20deg);
+}
+.musicControlers{
+  cursor: pointer;
+  font-size: 35px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  font-weight: 600;
+}
